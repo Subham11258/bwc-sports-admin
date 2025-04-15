@@ -10,7 +10,7 @@ const Routing = () => {
       <Routes>
         <Route element={<Layout />}>
         <Route path="/" element={<Admin/>}/>
-        <Route path="/parent-page" element={<UserManagementParentProfile/>}/>
+        
         </Route>
       </Routes>
     </Router>
