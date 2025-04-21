@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "../Components/Layout/layout";
 import Admin from "../Pages/Admin";
 
+
 const Routing = () => {
   return (
     <Routes>
