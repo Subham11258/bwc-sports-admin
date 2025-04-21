@@ -1,0 +1,133 @@
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search {
+  padding: 8px 12px;
+  padding-right: 36px; /* Make room for the icon on the right */
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px; /* Position on the right instead of left */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  pointer-events: none; /* This ensures clicks go through to the input */
+}
+
+
+
+.parent-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.parent-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  color: #888;
+  font-size: 14px;
+}
+
+/* .add-btn {
+  background-color: #d3d3d3;
+  border: none;
+  width: 194;
+  height: 57;
+  top: 235px;
+  left: 275px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 12px;
+} */
+
+/* .filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+} */
+
+/* .search {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 16px;
+  align-items: center;
+} */
+
+.search {
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 19px;
+  font-size: 16px;
+  text-align: right; /* aligns placeholder and input text to the right */
+  background-color: #D9D9D9;
+}
+
+
+/* .search {
+    width: 348px;
+    height: 57px;
+    padding: 0 20px;
+    border-radius: 19px;
+    font-size: 16px;
+    background-color: #D9D9D9; 
+    color: #000; 
+    outline: none;
+    box-sizing: border-box;
+  } */
+
+/* .filter-bar button {
+    background-color: #d3d3d3;
+    border: none;
+    padding: 19px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 123px;
+} */
+
+/* .table-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+} */
+
+/* .table-header,
+.table-row {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr 1.5fr 1.2fr 1.2fr 0.8fr;
+  background-color: #f3f3f3 !important;
+  padding: 12px 16px;
+  border-radius: 10px;
+  align-items: center;
+} */
+
+.table-row {
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+.view-btn {
+  background-color: black;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

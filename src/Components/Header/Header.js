@@ -1,12 +1,12 @@
 import React from "react";
 import "./header.css";
-import { Link } from "react-router";
+import logo from "../../Assets/Images/logo.png";
 
 const Header = () => {
   return (
-    <>
-        <h1>Header</h1>
-    </>
+    <header className="header">
+    <img src={logo} alt="Logo" className="logo" />
+  </header>
   );
 };
 export default Header;
