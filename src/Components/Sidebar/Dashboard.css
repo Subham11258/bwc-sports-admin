@@ -1,0 +1,113 @@
+
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 148;
+  height: 34;
+  top: 206px;
+  left: 275px;
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+  font-size: 14px
+  ;
+
+}
+.dashboard p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+
+.key-stats {
+  display: flex;
+  gap: 10px;
+  width: 1207;
+  height: 238;
+  top: 256px;
+  left: 275px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.stat {
+  background: #eee;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1;
+  text-align: center;
+}
+
+.stat b{
+  font-size: 30px;
+  font-weight: 6000;
+  color: #000000;
+
+}
+
+.actions-notifications {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  color: #383838;
+  font-weight: 550;
+  justify-content: center;
+  padding: 15px;
+}
+
+.actions,
+.notifications {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.actions h4 , .notifications h4 {
+  margin-bottom: 10px ;
+}
+
+/* .actions .location{
+  font-weight: 500;
+  font-size: 14px;
+  color: #383838;
+} */
+
+/* .actions button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #ececec;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 12px;
+} */
+
+.actions button{
+  font-weight: 550;
+  font-size: 13px;
+  color: #383838;
+}
+
+
+/* .actions h4 {
+  margin-bottom: 10px;
+  font-family: Inter, sans-serif;
+} */
+
+.actions button,
+.notifications div {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #ececec;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
