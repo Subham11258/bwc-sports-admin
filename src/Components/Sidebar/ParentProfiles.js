@@ -56,7 +56,7 @@ const ParentProfiles = () => {
         </div>
 
         <div className="table-wrapper">
-          <div className="table-header">
+          <div className="table-header parent-header">
             <div>Name</div>
             <div>Email</div>
             <div>Phone</div>

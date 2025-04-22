@@ -53,7 +53,7 @@ const PlayerProfiles = () => {
       </div>
 
       <div className="table-wrapper">
-        <div className="table-header">
+        <div className="table-header player-header">
           <div>Name</div>
           <div>Email</div>
           <div>Phone</div>
