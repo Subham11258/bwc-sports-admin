@@ -65,7 +65,7 @@ const ParentProfiles = () => {
             <div></div>
           </div>
           {parents.map((parent, index) => (
-            <div className="table-row" key={index}>
+            <div className="table-row parent-profile-row" key={index}>
               <div className="name">
                 <b>{parent.name}</b>
               </div>
