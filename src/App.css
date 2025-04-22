@@ -11,6 +11,6 @@
 .content {
   padding: 20px;
   flex: 1;
-  background-color: #f9f9f9;
+  background-color: #FFFFFF;
   min-height: calc(100vh - 135px); /* Header height */
 } 

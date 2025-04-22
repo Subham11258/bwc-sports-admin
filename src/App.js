@@ -38,6 +38,7 @@ import Sidebar from "./Components/Sidebar/Sidebar";
 import Dashboard from "./Components/Sidebar/Dashboard";
 import ParentProfiles from "./Components/Sidebar/ParentProfiles";
 import PlayerProfile from "./Components/Sidebar/PlayerProfiles";
+import Appointments from "./Components/Sidebar/Appointments";
 import "./App.css";
 
 function App() {
@@ -51,6 +52,8 @@ function App() {
         return <ParentProfiles />;
         case "Player Profiles":
         return <PlayerProfile />;
+        case "Appointments":
+        return <Appointments />;
       default:
         return <Dashboard />;
     }

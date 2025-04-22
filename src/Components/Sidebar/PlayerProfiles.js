@@ -11,12 +11,15 @@ const parents = Array(7).fill({
 
 const PlayerProfiles = () => {
   return (
+    <>
     <div className="parent-container">
       <div className="parent-header">
         <span className="breadcrumb">User Management &gt; <b>Player Profiles</b></span>
         <button className="add-btn">Add New Parent</button>
       </div>
-
+    </div>
+    
+      <div className="parent-container">
       <div className="filter-bar">
       <div className="search-container">
             <input className="search" type="text" />
@@ -60,16 +63,17 @@ const PlayerProfiles = () => {
         </div>
         {parents.map((parent, index) => (
           <div className="table-row" key={index}>
-            <div><b>{parent.name}</b></div>
-            <div>{parent.email}</div>
-            <div>{parent.phone}</div>
-            <div>{parent.type}</div>
-            <div>{parent.location}</div>
-            <div><button className="view-btn">View</button></div>
+            <div className="name"><b>{parent.name}</b></div>
+            <div className="email">{parent.email}</div>
+            <div className="phone">{parent.phone}</div>
+            <div className="type">{parent.type}</div>
+            <div className="location">{parent.location}</div>
+            {/* <div><button className="view-btn">View</button></div> */}
           </div>
         ))}
       </div>
     </div>
+    </>
   );
 };
 

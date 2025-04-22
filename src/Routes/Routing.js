@@ -7,7 +7,7 @@ const Routing = () => {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route path="/" element={<Admin />} />
+        <Route path="/admin/dashboard" element={<Admin />} />
       </Route>
     </Routes>
   );
