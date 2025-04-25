@@ -125,7 +125,7 @@ const Appointments = () => {
           <p>Appointments Table</p>
         </div>
         
-        <div className="filter-bars">
+        <div className="filter-bar">
           <div className="search-container">
             <input className="search" type="text"  />
             <svg
@@ -159,7 +159,7 @@ const Appointments = () => {
         </div>
 
         <div className="table-wrapper">
-          <div className="table-header">
+          <div className="table-header appointments-table-header">
             <div>Date & Time</div>
             <div>Player</div>
             <div>Trainer</div>
@@ -170,7 +170,7 @@ const Appointments = () => {
           </div>
           
           {appointments.map((appointment, index) => (
-            <div className="table-row" key={index}>
+            <div className="table-row appointments-table-row" key={index}>
               <div className="date">{appointment.date}</div>
               <div className="player">{appointment.player}</div>
               <div className="trainer">{appointment.trainer}</div>

@@ -12,10 +12,10 @@ const parents = Array(7).fill({
 const ParentProfiles = () => {
   return (
     <>
-      <div className="parent-container">
+      <div className="parent-container parent-header-box">
         <div className="parent-header">
-          <span className="breadcrumb">
-            User Management &gt; <b>Parent Profiles</b>
+          <span className="parent-breadcrumb">
+            User Management  &gt;  <b>Parent Profiles</b>
           </span>
           <button className="add-btn">Add New Parent</button>
         </div>
@@ -24,28 +24,12 @@ const ParentProfiles = () => {
         <div className="filter-bar">
           {/* <input className="search" type="text" placeholder="🔍" /> */}
 
+
           <div className="search-container">
             <input className="search" type="text" />
-            <svg
-              className="search-icon"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
-                stroke="#808080"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M21 21L16.65 16.65"
-                stroke="#808080"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
+            <svg className="search-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M21 21L16.65 16.65" stroke="#808080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </div>
           <button>Date Range</button>
@@ -56,7 +40,7 @@ const ParentProfiles = () => {
         </div>
 
         <div className="table-wrapper">
-          <div className="table-header parent-header">
+          <div className="table-header parent-table-header">
             <div>Name</div>
             <div>Email</div>
             <div>Phone</div>

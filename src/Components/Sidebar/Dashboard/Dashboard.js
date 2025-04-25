@@ -15,24 +15,32 @@ const Dashboard = () => {
         </div>
         <div className="key-stats">
           <div className="stat">
-            Total Sessions Booked
-            <br />
+            <p>Total Sessions Booked</p>
+            
             <b>230</b>
+            <div></div>
           </div>
           <div className="stat">
-            Revenue
-            <br />
+            <p>Revenue</p>
+            
             <b>$15000</b>
+            <div className="price-breakdown-section">
+            <div className="price-section"></div>
+            <div className="price-section-border">|</div>
+            <div className="price-section"></div>
+            </div>
           </div>
           <div className="stat">
-            Subscriptions
-            <br />
+            <p>Subscriptions</p>
+            
             <b>120</b>
+            <div></div>
           </div>
           <div className="stat">
-            Upcoming Sessions
-            <br />
+            <p>Upcoming Sessions</p>
+            
             <b>15</b>
+            <div></div>
           </div>
           <div className="stat">Other</div>
         </div>
@@ -78,7 +86,7 @@ const Dashboard = () => {
             </svg>
           </button>
           <button className="action-btn">
-            Manage New Appointments
+            <span>Manage New Appointments</span>
             <svg
               width="16"
               height="17"
@@ -107,15 +115,15 @@ const Dashboard = () => {
         <div className="notifications">
           <h4 className="section-title">Notifications</h4>
           <button className="action-btn">
-            Soccer session canceled on March 12, 4 PM
+            <span>Soccer session canceled on March 12, 4 PM</span>
             <span className="arrow"></span>
           </button>
           <button className="action-btn">
-            Basketball session rescheduled for March 15, 2 PM
+            <span>Basketball session rescheduled for March 15, 2 PM</span>
             <span className="arrow"></span>
           </button>
           <button className="action-btn">
-            Reminder: Tennis session on March 14, 3 PM
+            <span>Reminder: Tennis session on March 14, 3 PM</span>
             <span className="arrow"></span>
           </button>
         </div>

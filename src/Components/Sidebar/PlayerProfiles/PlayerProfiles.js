@@ -3,20 +3,22 @@ import "./PlayerProfiles.css";
 
 const parents = Array(7).fill({
   name: "John Smith",
-  email: "john.smith198@gmail.com",
-  phone: "+1 111 111 111",
-  type: "Self Pay",
-  location: "New York",
+  parent_name: "James Smith",
+  package: "1-on-1",
+  sessions_left: "2",
+  sports: "Basketball",
 });
 
 const PlayerProfiles = () => {
   return (
     <>
-    <div className="parent-container">
-      <div className="parent-header">
-        <span className="breadcrumb">User Management &gt; <b>Player Profiles</b></span>
-        <button className="add-btn">Add New Parent</button>
-      </div>
+    <div className="parent-container parent-player-header">
+    <div className="parent-header">
+          <span className="parent-breadcrumb">
+            User Management  &gt;  <b>Player Profiles</b>
+          </span>
+          <button className="add-btn">Add New Player</button>
+        </div>
     </div>
     
       <div className="parent-container">
@@ -55,19 +57,19 @@ const PlayerProfiles = () => {
       <div className="table-wrapper">
         <div className="table-header player-header">
           <div>Name</div>
-          <div>Email</div>
-          <div>Phone</div>
-          <div>Type</div>
-          <div>Location</div>
+          <div>Parent Name</div>
+          <div>Package</div>
+          <div>Session Left</div>
+          <div>Sport</div>
           <div></div>
         </div>
         {parents.map((parent, index) => (
           <div className="table-row player-profile-row" key={index}>
             <div className="name"><b>{parent.name}</b></div>
-            <div className="email">{parent.email}</div>
-            <div className="phone">{parent.phone}</div>
-            <div className="type">{parent.type}</div>
-            <div className="location">{parent.location}</div>
+            <div className="email">{parent.parent_name}</div>
+            <div className="phone">{parent.package}</div>
+            <div className="type">{parent.sessions_left}</div>
+            <div className="location">{parent.sports}</div>
             {/* <div><button className="view-btn">View</button></div> */}
           </div>
         ))}

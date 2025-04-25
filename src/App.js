@@ -35,10 +35,10 @@
 import React, { useState } from "react";
 import Header from "./Components/Header/Header";
 import Sidebar from "./Components/Sidebar/Sidebar";
-import Dashboard from "./Components/Sidebar/Dashboard";
-import ParentProfiles from "./Components/Sidebar/ParentProfiles";
-import PlayerProfile from "./Components/Sidebar/PlayerProfiles";
-import Appointments from "./Components/Sidebar/Appointments";
+import Dashboard from "./Components/Sidebar/Dashboard/Dashboard";
+import ParentProfiles from "./Components/Sidebar/ParentProfiles/ParentProfiles";
+import PlayerProfile from "./Components/Sidebar/PlayerProfiles/PlayerProfiles";
+import Appointments from "./Components/Sidebar/Appointments/Appointments";
 import "./App.css";
 
 function App() {
